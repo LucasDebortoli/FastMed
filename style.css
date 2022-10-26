@@ -55,10 +55,19 @@
     width: 90%
 }
 
-.background {
-    background-image: url(C:\Users\lucas\Desktop\FastMed\img);
+.background-img {
+    background-image: url(images/download.jpg);
+    width: 1920px;
+    height: 1080px;
+    background-size: contain;
+    background-position: center;
 }
 
-p {
-  background-image: url('C:\Users\lucas\Desktop\FastMed\img');
+.logo {
+    background-image: url();
+}
+
+.header-right {
+    width: 300px;
+    height: 20px;
 }
