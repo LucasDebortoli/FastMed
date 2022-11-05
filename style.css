@@ -1,0 +1,72 @@
+.header {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 20px;
+  }
+
+.form {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: auto;
+    border: 4px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.form_date {
+    width: 20%;
+    line-height: normal;
+    padding: 4px 8px;
+    box-sizing: border-box;
+}
+
+.form_label {
+    color: black; 
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.form_input {
+    width: 60%;
+    line-height: normal;
+    padding: 4px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form_select {
+    width: auto;
+    line-height: normal;
+    padding: 4px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+
+.form_ende {
+    background-color: rgb(253, 253, 253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: block;
+    width: 90%
+}
+
+.logo {
+    background-image: url(img/logo.jpeg);
+    width: 300px;
+    height: 150px;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.header-right {
+    width: 340px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
