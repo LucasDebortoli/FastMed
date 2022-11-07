@@ -29,9 +29,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: 500px;
     height: 350px;
     position: center;
+    margin-top: 30px;
 }
 
 .input_login {
@@ -41,4 +42,42 @@
     margin: 10px 10px;
     box-sizing: border-box;
 
+}
+
+.input_password {
+    width: 90%;
+    line-height: normal;
+    padding: 2px 10px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+}
+
+.label_login {
+    color: black; 
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 60px;
+}
+
+.intro {
+    color: black; 
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+    width: 250px;
+    height: 100px;
+}
+
+.login_butom {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
