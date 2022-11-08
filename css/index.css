@@ -5,15 +5,9 @@
   }
 
 .background {
-  background-color: ;
   display: block;
   width: 1024px;
   height: 600px;
   border: 4px solid;
 }
 
-.texto {
-  font-size: ;
-  font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  width: 1000px;
-}
