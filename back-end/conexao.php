@@ -2,7 +2,7 @@
 
 $usuario = 'root';
 $senha = '';
-$database = 'login';
+$database = 'fastmed_bd';
 $host = 'localhost';
 
 $mysqli = new mysqli($host, $usuario, $senha, $database);
