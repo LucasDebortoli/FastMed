@@ -1,13 +1,26 @@
+<?php
+
+    include('../back-end/conexao.php');
+ 
+    if(!isset($_SESSION)) {
+        session_start();
+    }
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt">
+
 
 <head>
 
     <link rel="stylesheet" href="../css/index.css">
-    <title>Fast Med Template</title>
+    <title>Fast Med Index</title>
         <h1 class="header">
             Fast Med Index
         </h1>
+        <a href="logout.php">Sair</a>
     <meta charset="UTF-8">  
 
 </head>
