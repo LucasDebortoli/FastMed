@@ -23,7 +23,7 @@
     
     <!-- Formulário prontuario -->
     
-            <form class="form" action="/prontuario" method="post">
+            <form class="form" action="../back-end/conexao.php" method="post">
                 <label class="form_label" for="nome">Insira seu Nome </label>
                 <input class="form_input" type="text" id="nome" name="nome"/>
                 <br>

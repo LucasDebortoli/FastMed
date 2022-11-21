@@ -1,3 +1,32 @@
+<?php
+    
+ if(isset($_POST['registro']))
+ {
+    $email = $_POST ['email'];
+    $senha = $_POST ['senha'];
+
+ 
+
+if($email!= '' && $email!='');
+{
+ //Conexão sql
+ $sql = "INSERT INTO usuario(email, senha) VALUES('$email', '$senha')";
+
+ include_once('../back-end/conexao.php');
+
+ $qry = mysqli_query($conn, $sql) or die("Erro em inserir as informações");
+
+ if($qry)
+ {
+    echo "$email registrado com sucesso";
+ }
+}
+}
+
+
+?>
+
+
 <!-- HTML do cadastro -->
 <html lang="pt-br">
 <head>
@@ -17,7 +46,7 @@
         </div>
     </div>
     
-     <form class="login" action="login" method="post" >
+     <form class="login" action="../back-end/conexao.php" method="post" >
         <!-- Formulário de login com todos os cadastros -->
     
         <h2 class="intro" >Seja bem vindo ao cadastro FastMed. Caso já possua uma conta acesse o <a href="index.php">login</a></h2>
@@ -30,10 +59,8 @@
         <label class="label_login" for="senha">Insira sua senha</label>
         <input class="input_password" type="password" id="senha" name="senha">
 
-        <label class="label_login2" for="senha2">Insira sua senha novamente </label>
-        <input class="input_password" type="password" id="senha2" name="senha2">
     
-        <input class="login_butom" type="submit" value="Login" id="save">
+        <input class="login_butom" type="submit" value="registro" id="save">
     
      </form>
     <body>
