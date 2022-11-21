@@ -28,7 +28,11 @@ include('../back-end/protecao.php');
     </div>
     <body>
     <div class="background">
+<<<<<<< HEAD
         <a href="prontuario.php">Seu prontuario</a> </div>
+=======
+        <a href="prontuario.html">Seu prontuario</a> </div>
+>>>>>>> 3c313c9d5fe37b392e4a1cc41d608ee35c07331f
     <div> 
         Seus Pontuarios
     </div>

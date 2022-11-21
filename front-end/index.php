@@ -64,7 +64,11 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 
  <form class="login" action=" " method="post" >
 
+<<<<<<< HEAD
     <h2 class="intro" >Seja bem vindo ao FastMed. Caso não esteja cadastrado realize seu login na sessão <a href="cadastro.php">cadastro</a></h2>
+=======
+    <h2 class="intro" >Seja bem vindo ao FastMed. Caso não esteja cadastrado realize seu login na sessão <a href="cadastro.html">cadastro</a></h2>
+>>>>>>> 3c313c9d5fe37b392e4a1cc41d608ee35c07331f
 
     <label class="label_login" for="email">Insira seu email</label>
     <input class="input_login" type="email" id="email" name="email"/>
